@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Dellosa, Mahinay, Angchangco">
+        <meta name="description" content="PSHS Promotional Website (CS3 Quarter 2 Project)">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML & CSS">
+        <meta charset="UTF-8">
+        <title>Join Pisay!</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navDiv">
+                    <div class="icons">
+                        <a href="index.html">
+                            <img class="i1" src="content/icon_1.png" alt="icon_1">
+                        </a>
+                        <a href="aboutPisay.html">
+                            <img class="i2" src="content/icon_2.png" alt="icon_2">
+                        </a>
+                        <a href="facilities.html">
+                            <img class="i3" src="content/icon_3.png" alt="icon_3">
+                        </a>    
+                        <a href="achievements.html">
+                            <img class="i4" src="content/icon_4.png" alt="icon_4">
+                        </a> 
+                        <a href="sources.html">
+                            <img class="i5" src="content/icon_5.png" alt="icon_5">
+                        </a> 
+                    </div>  
+                </div>
+            </nav>
+        </header>
+        <img class="pBg" src="content/pbg5.PNG" alt="Picture of Pisay">
+        <section class="s1 fade">
+                <img class="pLogo"src="content/pisayLogo2.png">
+                <div class="dark"></div>
+                <div class="light">
+                    <p class="pScholar">BE A PISAY SCHOLAR NOW!</p>
+                </div>
+        </section>
+        <section class="s2 fade">
+            <div class="NCE">
+                <a class="aNCE" href="https://nce.pshs.edu.ph" target="_blank">nce.pshs.edu.ph</a>
+            </div>
+        </section>
+        <section class="s3 fade">
+            <div class="socials">
+                <p class="sText">Socials</p>
+                <p class="gmail">GMAIL: ocd@crc.pshs.edu.ph</p>
+                <a class="wCrc" href="crc.pshs.edu.ph" target="_blank">WEBSITE: crc.pshs.edu.ph</a>
+                <br>
+                <a class="fb" href="https://www.facebook.com/pshscrc13" target="_blank">FACEBOOK: facebook.com/pshscrc13/</a>
+            </div>
+        </section>
+    </body>
+    <style>
+        @import url(https://db.onlinewebfonts.com/c/4711a57f4a95aad9e6bf67b4a07c93b5?family=Ritts+Cursive+W01+Regular);
+        @import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+        @font-face {
+            font-family: "Ritts Cursive W01 Regular";
+            src: url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.eot");
+            src: url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.svg#Ritts Cursive W01 Regular")format("svg");
+        }
+        @font-face {
+            font-family: "Circular Std Bold";
+            src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot");
+            src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold")format("svg");
+        }
+        *{
+            margin: 0;
+        }
+        img{
+            user-select: none;
+        }
+        .icons > a{
+            text-decoration: none;
+        }
+        .navDiv {
+            height: 8.1vh;
+            width: 100%;
+            background-color: #194375;
+            z-index: 1;
+            user-select: none;
+        }
+        .pBg{
+            position: fixed;
+            top: 48.5%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 101vw;
+            height: 105%;
+            z-index: -1;
+            user-select: none;
+        }
+        .pLogo{
+            width: 25vw;
+            position: fixed;
+            transform: rotate(15deg);
+            right: 60%;
+            top: 13%;
+            z-index: 3;
+        }
+        .dark{
+            width: 35vw;
+            height: 15vh;
+            background-color: #194375;
+            position: fixed;
+            top: 15%;
+            right: 35.5%;
+            z-index: 2;
+            border-radius: 1vh;
+        }
+        .light{
+            width: 40vw;
+            height: 15vh;
+            background-color: #185ba2;
+            position: fixed;
+            top: 18%;
+            right: 30%;
+            z-index: 3;
+            border-radius: 1vh;
+            box-shadow: -1vh -1vh 0.5vh rgba(10, 50, 95, 0.6);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .socials{
+            width: 39.1vw;
+            height: 40vh;
+            background-color: #185ba2;
+            position: fixed;
+            top: 51%;
+            right: 30%;
+            z-index: 4;
+            border-radius: 1.5vh;
+            border: 1vh solid #194375;
+        }
+        .sText{
+            font-family: "Circular Std Bold";
+            font-size: 4.5vh;
+            color: #fec20d;
+            text-shadow:-0.6vh 0.3vh 0.3vh #112b4e;
+            text-align: center;
+            position: relative;
+            top: 2%;
+        }
+        .gmail{
+            font-family: "Circular Std Bold";
+            font-size: 3.5vh;
+            color: white;
+            text-shadow:-0.6vh 0.3vh 0.3vh #112b4e;
+            position: relative;
+            top: 20%;
+            text-align: center;
+        }
+        .wCrc{
+            font-family: "Circular Std Bold";
+            font-size: 3.5vh;
+            color: white;
+            text-shadow:-0.6vh 0.3vh 0.3vh #112b4e;
+            right: -22.5%;
+            position: relative;
+            top: 20%;
+            
+        }
+        .fb{
+            font-family: "Circular Std Bold";
+            font-size: 3.5vh;
+            color: white;
+            text-shadow:-0.6vh 0.3vh 0.3vh #112b4e;
+            right: -11%;
+            position: relative;
+            top: 20%;
+            
+        }
+        .pScholar{
+            
+            font-family: "Circular Std Bold";
+            font-size: 5.5vh;
+            color: #fec20d;
+            text-shadow:-0.6vh 0.3vh 0.3vh #112b4e;
+        }
+        .NCE{
+            width: 39.1vw;
+            height: 7.5vh;
+            background-color: #185ba2;
+            position: fixed;
+            top: 37.5%;
+            right: 30%;
+            z-index: 4;
+            border-radius: 1.5vh;
+            border: 1vh solid #194375;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .aNCE{
+            color: white;
+            font-family: "Circular Std Bold";
+            font-size: 3.75vh;
+            text-shadow:-0.6vh 0.3vh 0.3vh #112b4e;
+        }
+        .aNCE:hover, .wCrc:hover, .fb:hover, .gmail:hover{
+            color: #fec20d;
+        }
+        .aNCE:active,.wCrc:active, .fb:active{
+            color: #c7a53d;
+        }
+        .icons{
+            z-index: 2;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+        .i1, .i2, .i3, .i4, .i5{
+            height: 8.06vh;
+        }
+        .i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover{
+            cursor: pointer;
+        }
+        .s2.fade{
+            animation-delay: 0.2s;
+        }
+        .s3.fade{
+            animation-delay: 0.4s;
+        }
+        .fade{
+            opacity: 0;
+            animation: fade 0.4s linear forwards;
+        }
+        @keyframes fade{
+            100%{
+                opacity: 1;
+            }
+        }
+    </style>
+</html>

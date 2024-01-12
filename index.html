@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="author" content="Dellosa, Mahinay, Angchangco">
+        <meta name="description" content="PSHS Promotional Website (CS3 Quarter 2 Project)">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="HTML & CSS">
+        <meta charset="UTF-8">
+        <title>Home</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="navDiv">
+                    <div class="icons">
+                        <a href="index.html">
+                            <img class="i1" src="content/icon_1.png" alt="icon_1">
+                        </a>
+                        <a href="aboutPisay.html">
+                            <img class="i2" src="content/icon_2.png" alt="icon_2">
+                        </a>
+                        <a href="facilities.html">
+                            <img class="i3" src="content/icon_3.png" alt="icon_3">
+                        </a>    
+                        <a href="achievements.html">
+                            <img class="i4" src="content/icon_4.png" alt="icon_4">
+                        </a> 
+                        <a href="sources.html">
+                            <img class="i5" src="content/icon_5.png" alt="icon_5">
+                        </a> 
+                    </div>  
+                </div>
+            </nav>
+        </header>
+            <img class="pBg" src="content/pisayBg.png" alt="Picture of Pisay">
+        <section>
+            <div class="content">
+                <p class="p1a move">Philippine Science</p>
+                <p class="p1b move">High School</p>
+                <p class="p2 move">Caraga Region Campus</p>
+                <p class="p3 move">"We are unbreakable, we're students of PISAY!"</p>    
+            </div>
+        </section>
+        <figure class="content">
+            <img class="pLogo move" src="content/pisayLogo2.png" alt="Pisay's Logo">
+        </figure>
+    </body>
+    <style>
+        @import url(https://db.onlinewebfonts.com/c/4711a57f4a95aad9e6bf67b4a07c93b5?family=Ritts+Cursive+W01+Regular);
+        @import url(https://db.onlinewebfonts.com/c/961a181da27e7cbc072ec2fb5bbfe2a9?family=Circular+Std+Bold);
+        @font-face {
+            font-family: "Ritts Cursive W01 Regular";
+            src: url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.eot");
+            src: url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/4711a57f4a95aad9e6bf67b4a07c93b5.svg#Ritts Cursive W01 Regular")format("svg");
+        }
+        @font-face {
+            font-family: "Circular Std Bold";
+            src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot");
+            src: url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.eot?#iefix")format("embedded-opentype"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff2")format("woff2"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.woff")format("woff"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.ttf")format("truetype"),
+            url("https://db.onlinewebfonts.com/t/961a181da27e7cbc072ec2fb5bbfe2a9.svg#Circular Std Bold")format("svg");
+        }
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        a{
+            text-decoration: none;
+        }
+        .navDiv {
+            height: 8.1vh;
+            width: 100%;
+            background-color: #194375;
+            z-index: 1;
+            user-select: none;
+            position: fixed;
+        }
+        .pBg{
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 102%;
+            z-index: -1;
+            user-select: none;
+        }
+        .p1a{
+            text-align: center;
+            position: fixed;
+            top: 20.5%;
+            left: -0.5%;
+            text-shadow:-2vh 1vh 1vh #12629f;
+            color: white;
+            font-family: "Ritts Cursive W01 Regular";
+            font-size: 14.5vh;
+            width: 70%;
+        }
+        .p1b{
+            text-align: center;
+            position: fixed;
+            top: 35.5%;
+            left: -0.5%;
+            text-shadow:-2vh 1vh 1vh #12629f;
+            color: white;
+            font-family: "Ritts Cursive W01 Regular";
+            font-size: 14.5vh;
+            width: 70%;
+        }
+        .p2{
+            text-align: center;
+            position: fixed;
+            top: 52.5%;
+            left: 6.5%;
+            text-shadow: 0 0 1.2vh #12629f, 0 0 2vh #12629f; 
+            color: white;
+            font-family: "Ritts Cursive W01 Regular";
+            font-size: 6.5vh;
+            width: 70%;
+        }
+        .p3{
+            text-align: center;
+            position: fixed;
+            top: 60.5%;
+            left: 6.5%;
+            text-shadow:-0.6vh -0.1vh #12629f;
+            font-family: "Ritts Cursive W01 Regular";
+            font-size: 6.5vh;
+            width: 70%;
+            color:white;
+        }
+        .pLogo{
+            width: 90vh;
+            position: fixed;
+            right: 3%;
+            top: 14%;
+            user-select: none;
+        }
+        .icons{
+            z-index: 2;
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
+        .i1, .i2, .i3, .i4, .i5{
+            height: 8.06vh;
+        }
+        .i1:hover, .i2:hover, .i3:hover, .i4:hover, .i5:hover{
+            cursor: pointer;
+        }
+        .content:hover{
+            cursor: default;
+        }
+        .move{
+            transform: translateY(5vh);
+            opacity: 0;
+            animation: up 0.4s linear forwards;
+        }
+        @keyframes up{
+            100%{
+                opacity: 1;
+                transform: translateY(0vh);
+            }
+        }
+        .p2.move{
+            animation-delay: 0.25s;
+        }
+        .p3.move{
+            animation-delay: 0.5s;
+        }
+        .pLogo.move{
+            animation-delay: 0.75s;
+        }
+    </style>
+</html>
